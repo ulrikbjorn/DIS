@@ -13,7 +13,9 @@ The database consists of 4 users that for simplicity sake share the same passwor
 Each investor owns a portfolio of shares and is allowed to carry out trades. 
 
 ## Functionality & Limitations
-Due to unforseen technical struggles, I failed to extend the functionality beyound logging-in, viewing the portfolio and placing orders. The web-app is able to interact with the datapase and update the portfolio, but there are no checks in place to avoid over-spending and buying non-existing shares. Furthermore, I have not implemented a consolidated view of the portfolio which is unelegant to say the least. I have relied on the provided banking template and modified it to suit my needs, but I underestimated the time needed to get familiar with the codebase. One of the main features I did get to implement was the Profit/Loss metric, which for each individual purchase of shares calculates the difference between the purchase price and the current price multiplied by the number of shares owned. I really put a lot of effort into the project, and I sincerely hope that it is sufficient. 
+Due to unforseen technical struggles, I failed to extend the functionality beyound logging-in, viewing the portfolio and placing orders. The web-app is able to interact with the datapase and update the portfolio, but there are no checks in place to avoid over-spending and buying non-existing shares. Furthermore, I have not implemented a consolidated view of the portfolio which is unelegant to say the least and the selling of shares is not fully supported.
+
+I have relied on the provided banking template and modified it to suit my needs, but I underestimated the time needed to get familiar with the codebase. One of the main features I did get to implement was the Profit/Loss metric, which for each individual purchase of shares calculates the difference between the purchase price and the current price multiplied by the number of shares owned. I really put a lot of effort into the project, and I sincerely hope that it is sufficient. 
 
 ## E/R Diagram
 I updated the E/R Diagram to reflect the actually implemented features rather than my initial ambitions.  
