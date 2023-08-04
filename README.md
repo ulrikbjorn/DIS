@@ -7,7 +7,7 @@ I have implemented a stock portfolio DBMS using Flask for the web layer and Post
 ## How to compile
 Besides PostgreSQL and Flask, the necessary Python packages can be found in requirements.txt. After the required dependencies have been installed the database can be created by executing 'createdb bluechip' in the terminal. Load the database schemes by executing 'psql bluechip < schema.sql' and 'psql bluechip < schema_ins.sql' The settings of the database can be modified in __init__.py.
 
-## How to run
+## How to run & interact
 To run the web-app execute 'python3 run.py' in the terminal, which will host the web-app from http://127.0.0.1:5000. 
 The database consists of 4 users that for simplicity sake share the same password (memestock). The user-id's are (3000,3001,3002,3003). 
 Each investor owns a portfolio of shares and is allowed to carry out trades. 
